@@ -1,0 +1,761 @@
+From dunstan.nesbit at gmail.com  Tue Jan  2 18:48:42 2007
+From: dunstan.nesbit at gmail.com (Dunstan Nesbit)
+Date: Tue, 2 Jan 2007 13:48:42 -0400
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+Message-ID: <254960650701020948ke231b51qbbec885b5f6d06ea@mail.gmail.com>
+
+Good Day and Season Greetings Gentlemen,
+
+Year has come and gone and I guess because of our professional and personal
+commitment not much was done in 2006.
+I'm still committed to this effort I would like to see something come out of
+it.
+The question now is now, should we continue with this project or let it rest
+in peace.
+
+Let discuss and hear what everybody thinks.
+
+Dunstan.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/digixound-devel/attachments/20070102/7dc6b463/attachment.html>
+
+From digixound at kontrol-dj.com  Fri Jan  5 19:53:13 2007
+From: digixound at kontrol-dj.com (L.S.D)
+Date: Fri, 5 Jan 2007 19:53:13 +0100
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+Message-ID: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+
+Hi,
+
+   I have to admit that the last year was almost null in development  
+terms for the digixound project. But this doesn't mean that it's dead  
+yet. I continue working in the ustream lib, I have done some progress  
+and fixes. I continue thinking that there isn't yet a good open  
+source alternative to commercial dj programs as Traktor, VirtualDj,  
+MixVibes, Torq, etc.
+
+   I would really want to see a stable (read rock solid) open source  
+dj program that can compete with the above ones.
+
+   One of the most used programs used by pro dj's out there is Serato  
+Scratch Live, if you look at his features you will see that it's not  
+a very advanced program because it's very simple but it's very mature  
+and reliable and rock solid (....read no crashes).
+
+   One more time I would like to see a open source dj program running  
+on a customized linux operating system.
+
+   A few days ago somebody asked about suggestions for a new dj  
+commercial program, my answer was:
+
+
+"- It's difficult to get a success now because there are a lot of  
+competition out there so that they will need to offer some cool/fresh  
+program, something different.
+
+- The first thing is to make sure what is the most important weapon  
+for a Dj. Effects, VST, Midi, Beat Matching....? The answer is none  
+of them. Our first weapon as djs is the music, the songs... in  
+another words our song library. This is the most important point. So  
+that a new dj program must to have the best music manager out there  
+(specially designed for djs). I know that it's boring from a dj  
+programmer point of view to develop it but this is the main key.
+
+- The second thing is to have a good sound engine (portable to  
+whatever Operating System), solid and stable like a rock. The first  
+goal is to be able to mix two songs changing their pitch and with  
+some kind of pitch bend support. This sounds very easy but I don't  
+know yet a program that does it perfectly.
+
+- The third thing or step is to include a beat matching algorithm.  
+Very difficult but is the heart of the modern dj programs.
+
+- The last step is to include the rest of elements: effects, Midi,  
+OSC, Time Strecthing, ...and the list goes on. BUT ONLY WHEN THE  
+ABOVE POINTS ARE WORKING PERFECTLY!."
+
+   I forgot to add to my answer the magic word "...open source please".
+
+   I'm going to continue with my dream of a powerful open dj program,  
+it can take to us some years to reach it but to be honest the time  
+doesn't worry me very much.
+
+   Luis.
+
+
+
+
+On 02/01/2007, at 18:48, Dunstan Nesbit wrote:
+
+> Good Day and Season Greetings Gentlemen,
+>
+> Year has come and gone and I guess because of our professional and  
+> personal commitment not much was done in 2006.
+> I'm still committed to this effort I would like to see something  
+> come out of it.
+> The question now is now, should we continue with this project or  
+> let it rest in peace.
+>
+> Let discuss and hear what everybody thinks.
+>
+> Dunstan.
+>
+>
+> _______________________________________________
+> Digixound-devel mailing list
+> Digixound-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/digixound-devel
+
+
+
+From dunstan.nesbit at gmail.com  Wed Jan 10 04:31:01 2007
+From: dunstan.nesbit at gmail.com (Dunstan Nesbit)
+Date: Tue, 9 Jan 2007 23:31:01 -0400
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+In-Reply-To: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+References: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+Message-ID: <254960650701091931h7641a6cfh5f4bbe387d6881c0@mail.gmail.com>
+
+LSD,
+
+In terms on the ustream lib, can we get a better understanding of where you
+are with it.
+If it's usable we can start build other things around it
+
+I also have some ideas about songfile/playlist management, I say lets start
+discuusing this so we can flesh out a specification/framework to work with.
+
+As for time to work on digixound, I too want to see it done right and I'm
+willing to work years on it to achieve this but
+I want to see produce something tangible over the next  year.
+
+Dunstan.
+
+
+   I have to admit that the last year was almost null in development
+> terms for the digixound project. But this doesn't mean that it's dead
+> yet. I continue working in the ustream lib, I have done some progress
+> and fixes. I continue thinking that there isn't yet a good open
+> source alternative to commercial dj programs as Traktor, VirtualDj,
+> MixVibes, Torq, etc.
+>
+>    I would really want to see a stable (read rock solid) open source
+> dj program that can compete with the above ones.
+
+
+   One of the most used programs used by pro dj's out there is Serato
+> Scratch Live, if you look at his features you will see that it's not
+> a very advanced program because it's very simple but it's very mature
+> and reliable and rock solid (....read no crashes).
+>
+>    One more time I would like to see a open source dj program running
+> on a customized linux operating system.
+>
+>    A few days ago somebody asked about suggestions for a new dj
+> commercial program, my answer was:
+>
+>
+> "- It's difficult to get a success now because there are a lot of
+> competition out there so that they will need to offer some cool/fresh
+> program, something different.
+>
+> - The first thing is to make sure what is the most important weapon
+> for a Dj. Effects, VST, Midi, Beat Matching....? The answer is none
+> of them. Our first weapon as djs is the music, the songs... in
+> another words our song library. This is the most important point. So
+> that a new dj program must to have the best music manager out there
+> (specially designed for djs). I know that it's boring from a dj
+> programmer point of view to develop it but this is the main key.
+>
+> - The second thing is to have a good sound engine (portable to
+> whatever Operating System), solid and stable like a rock. The first
+> goal is to be able to mix two songs changing their pitch and with
+> some kind of pitch bend support. This sounds very easy but I don't
+> know yet a program that does it perfectly.
+>
+> - The third thing or step is to include a beat matching algorithm.
+> Very difficult but is the heart of the modern dj programs.
+>
+> - The last step is to include the rest of elements: effects, Midi,
+> OSC, Time Strecthing, ...and the list goes on. BUT ONLY WHEN THE
+> ABOVE POINTS ARE WORKING PERFECTLY!."
+>
+>    I forgot to add to my answer the magic word "...open source please".
+>
+>    I'm going to continue with my dream of a powerful open dj program,
+> it can take to us some years to reach it but to be honest the time
+> doesn't worry me very much.
+>
+>    Luis.
+>
+>
+>
+>
+> On 02/01/2007, at 18:48, Dunstan Nesbit wrote:
+>
+> > Good Day and Season Greetings Gentlemen,
+> >
+> > Year has come and gone and I guess because of our professional and
+> > personal commitment not much was done in 2006.
+> > I'm still committed to this effort I would like to see something
+> > come out of it.
+> > The question now is now, should we continue with this project or
+> > let it rest in peace.
+> >
+> > Let discuss and hear what everybody thinks.
+> >
+> > Dunstan.
+> >
+> >
+> > _______________________________________________
+> > Digixound-devel mailing list
+> > Digixound-devel at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/digixound-devel
+>
+> _______________________________________________
+> Digixound-devel mailing list
+> Digixound-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/digixound-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/digixound-devel/attachments/20070109/a0ca3d5b/attachment.html>
+
+From digixound at kontrol-dj.com  Thu Jan 11 17:58:08 2007
+From: digixound at kontrol-dj.com (L.S.D)
+Date: Thu, 11 Jan 2007 17:58:08 +0100
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+In-Reply-To: <254960650701091931h7641a6cfh5f4bbe387d6881c0@mail.gmail.com>
+References: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+	<254960650701091931h7641a6cfh5f4bbe387d6881c0@mail.gmail.com>
+Message-ID: <2CB9C204-9F56-46C0-8019-FB8230F5B826@kontrol-dj.com>
+
+Hi,
+
+   In the last months I have fixed some bugs of the ustream lib. I'm  
+adding right now a special module to store the properties of all the  
+"blocks" in a xml file so that we will be able to store easily custom  
+settings and configs (...from the point of view of a end user). I  
+think that the ustream lib is now stable. I use it in another program  
+that has been tested by some hundreds of users and there aren't  
+reports yet of crashes of the ustream kernel, so that I can say that  
+I'm happy with it.
+
+   I wrote a long time ago a little program with a rapid development  
+tool (c++builder) in a windows platform where I use a customized mad  
+decoder like a sink block, the soundtouch library like a filter block  
+and the rtaudio library like a sink block. The result was a mini  
+program that was able to play mp3 songs within problems and with the  
+feature to change his pitch/tempo rate. In conclusion I can say that  
+the ustream lib works.
+
+   About playlist management:
+
+   We can compare the songfile/playlist management of dj (...and also  
+not dj related) programs and thus we can find the basic features of  
+the playlist manager. I have been thinking that it would be nice to  
+use some of the open source playlist managers out there to speed up  
+the development process (MadMan, Amarok, Juk, Domo, Prokyon, etc).  
+One of the main problems of using these open source programs is that  
+some of them use a lot of external libraries and this can give us a  
+lot of problems. For example Amarok (...in my honest opinion actually  
+it's the best music manager) uses the KDE libraries and have not been  
+ported yet to windows. So that as Dunstan says we have to decide the  
+framework to work with.
+
+   In the last months I have been thinking in develop/use a minimal  
+linux distro (...it can be a live/embedded distro as damn small linux  
+or puppy linux but more ligthweight) specifically developed for our  
+dj program so that we can have more control over it, this can be a  
+good discussion point. From one side it's very good to do it but in  
+the other side we lose our multi-platform objective. To be honest I'm  
+a little bit confused in the last weeks about what is the best way to  
+get our target program ready. Definitively we need to discuss more....
+
+   LSD.
+
+
+On 10/01/2007, at 4:31, Dunstan Nesbit wrote:
+
+> LSD,
+>
+> In terms on the ustream lib, can we get a better understanding of  
+> where you are with it.
+> If it's usable we can start build other things around it
+>
+> I also have some ideas about songfile/playlist management, I say  
+> lets start discuusing this so we can flesh out a specification/ 
+> framework to work with.
+>
+> As for time to work on digixound, I too want to see it done right  
+> and I'm willing to work years on it to achieve this but
+> I want to see produce something tangible over the next  year.
+>
+> Dunstan.
+>
+>
+>    I have to admit that the last year was almost null in development
+> terms for the digixound project. But this doesn't mean that it's dead
+> yet. I continue working in the ustream lib, I have done some progress
+> and fixes. I continue thinking that there isn't yet a good open
+> source alternative to commercial dj programs as Traktor, VirtualDj,
+> MixVibes, Torq, etc.
+>
+>    I would really want to see a stable (read rock solid) open source
+> dj program that can compete with the above ones.
+>
+>    One of the most used programs used by pro dj's out there is Serato
+> Scratch Live, if you look at his features you will see that it's not
+> a very advanced program because it's very simple but it's very mature
+> and reliable and rock solid (....read no crashes).
+>
+>    One more time I would like to see a open source dj program running
+> on a customized linux operating system.
+>
+>    A few days ago somebody asked about suggestions for a new dj
+> commercial program, my answer was:
+>
+>
+> "- It's difficult to get a success now because there are a lot of
+> competition out there so that they will need to offer some cool/fresh
+> program, something different.
+>
+> - The first thing is to make sure what is the most important weapon
+> for a Dj. Effects, VST, Midi, Beat Matching....? The answer is none
+> of them. Our first weapon as djs is the music, the songs... in
+> another words our song library. This is the most important point. So
+> that a new dj program must to have the best music manager out there
+> (specially designed for djs). I know that it's boring from a dj
+> programmer point of view to develop it but this is the main key.
+>
+> - The second thing is to have a good sound engine (portable to
+> whatever Operating System), solid and stable like a rock. The first
+> goal is to be able to mix two songs changing their pitch and with
+> some kind of pitch bend support. This sounds very easy but I don't
+> know yet a program that does it perfectly.
+>
+> - The third thing or step is to include a beat matching algorithm.
+> Very difficult but is the heart of the modern dj programs.
+>
+> - The last step is to include the rest of elements: effects, Midi,
+> OSC, Time Strecthing, ...and the list goes on. BUT ONLY WHEN THE
+> ABOVE POINTS ARE WORKING PERFECTLY!."
+>
+>    I forgot to add to my answer the magic word "...open source  
+> please".
+>
+>    I'm going to continue with my dream of a powerful open dj program,
+> it can take to us some years to reach it but to be honest the time
+> doesn't worry me very much.
+>
+>    Luis.
+>
+>
+>
+>
+> On 02/01/2007, at 18:48, Dunstan Nesbit wrote:
+>
+> > Good Day and Season Greetings Gentlemen,
+> >
+> > Year has come and gone and I guess because of our professional and
+> > personal commitment not much was done in 2006.
+> > I'm still committed to this effort I would like to see something
+> > come out of it.
+> > The question now is now, should we continue with this project or
+> > let it rest in peace.
+> >
+> > Let discuss and hear what everybody thinks.
+> >
+> > Dunstan.
+> >
+> >
+> > _______________________________________________
+> > Digixound-devel mailing list
+> > Digixound-devel at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/digixound-devel
+>
+> _______________________________________________
+> Digixound-devel mailing list
+> Digixound-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/digixound-devel
+>
+> _______________________________________________
+> Digixound-devel mailing list
+> Digixound-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/digixound-devel
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/digixound-devel/attachments/20070111/6ab75c2d/attachment.html>
+
+From j_zar at openjay.org  Fri Jan 12 01:02:53 2007
+From: j_zar at openjay.org (Gianluca Romanin (aka J_Zar))
+Date: Fri, 12 Jan 2007 01:02:53 +0100
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+In-Reply-To: <2CB9C204-9F56-46C0-8019-FB8230F5B826@kontrol-dj.com>
+References: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+	<254960650701091931h7641a6cfh5f4bbe387d6881c0@mail.gmail.com>
+	<2CB9C204-9F56-46C0-8019-FB8230F5B826@kontrol-dj.com>
+Message-ID: <200701120102.54008.j_zar@openjay.org>
+
+Hi all you again!
+
+Nice to see you... Actually I'm really tired from work to be in the mood for 
+an answer but I'm on it. Next days I'll write some line...
+
+Only to say I'm reading...
+
+Cheers,
+J_Zar
+
+Alle 17:58, gioved? 11 gennaio 2007, L.S.D ha scritto:
+> Hi,
+>
+>    In the last months I have fixed some bugs of the ustream lib. I'm
+> adding right now a special module to store the properties of all the
+> "blocks" in a xml file so that we will be able to store easily custom
+> settings and configs (...from the point of view of a end user). I
+> think that the ustream lib is now stable. I use it in another program
+> that has been tested by some hundreds of users and there aren't
+> reports yet of crashes of the ustream kernel, so that I can say that
+> I'm happy with it.
+>
+>    I wrote a long time ago a little program with a rapid development
+> tool (c++builder) in a windows platform where I use a customized mad
+> decoder like a sink block, the soundtouch library like a filter block
+> and the rtaudio library like a sink block. The result was a mini
+> program that was able to play mp3 songs within problems and with the
+> feature to change his pitch/tempo rate. In conclusion I can say that
+> the ustream lib works.
+>
+>    About playlist management:
+>
+>    We can compare the songfile/playlist management of dj (...and also
+> not dj related) programs and thus we can find the basic features of
+> the playlist manager. I have been thinking that it would be nice to
+> use some of the open source playlist managers out there to speed up
+> the development process (MadMan, Amarok, Juk, Domo, Prokyon, etc).
+> One of the main problems of using these open source programs is that
+> some of them use a lot of external libraries and this can give us a
+> lot of problems. For example Amarok (...in my honest opinion actually
+> it's the best music manager) uses the KDE libraries and have not been
+> ported yet to windows. So that as Dunstan says we have to decide the
+> framework to work with.
+>
+>    In the last months I have been thinking in develop/use a minimal
+> linux distro (...it can be a live/embedded distro as damn small linux
+> or puppy linux but more ligthweight) specifically developed for our
+> dj program so that we can have more control over it, this can be a
+> good discussion point. From one side it's very good to do it but in
+> the other side we lose our multi-platform objective. To be honest I'm
+> a little bit confused in the last weeks about what is the best way to
+> get our target program ready. Definitively we need to discuss more....
+>
+>    LSD.
+>
+
+
+From dunstan.nesbit at gmail.com  Fri Jan 12 07:17:26 2007
+From: dunstan.nesbit at gmail.com (Dunstan Nesbit)
+Date: Fri, 12 Jan 2007 02:17:26 -0400
+Subject: [Digixound-devel] We are moving along again!
+Message-ID: <254960650701112217s6b1d0b4bxb14421c0692e9692@mail.gmail.com>
+
+L.S.D,
+
+It's good to hear that you are that far along with ustream. You already have
+user base to test stuff?
+Is it kontrol-dj stuff or some other program you have in
+development/production?
+
+C++Builder.. that's the borland ide right? similar to the kylix environment.
+
+I've never tried any playlist management with any of the program you
+mentioned long and hard enough to give an objective answer. What I was
+thinking was building something on top of SQLite, it would make
+searching,grouping and adding song file attributes much more easier and
+faster in realtime than if the the playlist was a flat or xml. Of course
+lib/program will be able to export the playlist to a flat file (.m3u, etc)
+but lose some attributes or something xml.
+
+As for a demo product, we can always build on top an existing live CD, with
+some customizations.
+I actually built a live CD for eMixer once,  it detected your soundcard,  I
+added sound basic partition detection and mounting, it autogenerated a
+playlist and started you in eMixer. It was based on a very small live cd
+that started a mame frontend, i can't remember the  name now. I removed the
+mame stuff, the total size was about 10Mb
+Lately I have been playing around with PuppyLinux and Slax, the USB flash
+boot versions. I've not tried Damn Small linux as yet.
+
+PuppyLinux  is easier to customize, you just need to put the stuff you need
+in the save file, I have added eMixer, Midnight Commander, the Samba Server,
+but i'm still having some problem with smbd. Function keys do not work
+properly at the console in PuppyLinux, it makes using  Midnight Commander
+and eMixer problematic. I have send that bug to the distrobuilders of Puppy.
+Also Puppy does not automount any detected partition, you have to do it
+manually from a gui utility :(
+
+Slax looks much cleaner and refined that Puppy. The KDE is very light and
+starts fast.
+Slax automounts all detected partitions and comes with Midnight Commander
+installs. The functions keys work at the console. I don't think it has a
+save file like Puppy to save settings and data :( (i need to confirm this).
+Slax on USB flash and the Slax Live CD are not quite the same. Mpg321 work
+on the live cd but dies when you try to run it from the USB flash distro, (a
+bug?... hmm). I've not tried to customized it yet but I can tell with will
+be harder than Puppy.
+
+Dunstan.
+
+
+
+On 1/11/07, L.S.D <digixound at kontrol-dj.com> wrote:
+>
+> Hi,
+>   In the last months I have fixed some bugs of the ustream lib. I'm adding
+> right now a special module to store the properties of all the "blocks" in a
+> xml file so that we will be able to store easily custom settings and configs
+> (...from the point of view of a end user). I think that the ustream lib is
+> now stable. I use it in another program that has been tested by some
+> hundreds of users and there aren't reports yet of crashes of the ustream
+> kernel, so that I can say that I'm happy with it.
+>
+>   I wrote a long time ago a little program with a rapid development tool
+> (c++builder) in a windows platform where I use a customized mad decoder like
+> a sink block, the soundtouch library like a filter block and the rtaudio
+> library like a sink block. The result was a mini program that was able to
+> play mp3 songs within problems and with the feature to change his
+> pitch/tempo rate. In conclusion I can say that the ustream lib works.
+>
+>   About playlist management:
+>
+>   We can compare the songfile/playlist management of dj (...and also not
+> dj related) programs and thus we can find the basic features of the playlist
+> manager. I have been thinking that it would be nice to use some of the open
+> source playlist managers out there to speed up the development process
+> (MadMan, Amarok, Juk, Domo, Prokyon, etc). One of the main problems of using
+> these open source programs is that some of them use a lot of external
+> libraries and this can give us a lot of problems. For example Amarok (...in
+> my honest opinion actually it's the best music manager) uses the KDE
+> libraries and have not been ported yet to windows. So that as Dunstan says
+> we have to decide the framework to work with.
+>
+>   In the last months I have been thinking in develop/use a minimal linux
+> distro (...it can be a live/embedded distro as damn small linux or puppy
+> linux but more ligthweight) specifically developed for our dj program so
+> that we can have more control over it, this can be a good discussion point.
+> From one side it's very good to do it but in the other side we lose our
+> multi-platform objective. To be honest I'm a little bit confused in the last
+> weeks about what is the best way to get our target program ready.
+> Definitively we need to discuss more....
+>
+>   LSD.
+>
+>
+> On 10/01/2007, at 4:31, Dunstan Nesbit wrote:
+>
+> LSD,
+>
+> In terms on the ustream lib, can we get a better understanding of where
+> you are with it.
+> If it's usable we can start build other things around it
+>
+> I also have some ideas about songfile/playlist management, I say lets
+> start discuusing this so we can flesh out a specification/framework to work
+> with.
+>
+> As for time to work on digixound, I too want to see it done right and I'm
+> willing to work years on it to achieve this but
+> I want to see produce something tangible over the next  year.
+>
+> Dunstan.
+>
+>
+>    I have to admit that the last year was almost null in development
+> > terms for the digixound project. But this doesn't mean that it's dead
+> > yet. I continue working in the ustream lib, I have done some progress
+> > and fixes. I continue thinking that there isn't yet a good open
+> > source alternative to commercial dj programs as Traktor, VirtualDj,
+> > MixVibes, Torq, etc.
+> >
+> >    I would really want to see a stable (read rock solid) open source
+> > dj program that can compete with the above ones.
+>
+>
+>    One of the most used programs used by pro dj's out there is Serato
+> > Scratch Live, if you look at his features you will see that it's not
+> > a very advanced program because it's very simple but it's very mature
+> > and reliable and rock solid (....read no crashes).
+> >
+> >    One more time I would like to see a open source dj program running
+> > on a customized linux operating system.
+> >
+> >    A few days ago somebody asked about suggestions for a new dj
+> > commercial program, my answer was:
+> >
+> >
+> > "- It's difficult to get a success now because there are a lot of
+> > competition out there so that they will need to offer some cool/fresh
+> > program, something different.
+> >
+> > - The first thing is to make sure what is the most important weapon
+> > for a Dj. Effects, VST, Midi, Beat Matching....? The answer is none
+> > of them. Our first weapon as djs is the music, the songs... in
+> > another words our song library. This is the most important point. So
+> > that a new dj program must to have the best music manager out there
+> > (specially designed for djs). I know that it's boring from a dj
+> > programmer point of view to develop it but this is the main key.
+> >
+> > - The second thing is to have a good sound engine (portable to
+> > whatever Operating System), solid and stable like a rock. The first
+> > goal is to be able to mix two songs changing their pitch and with
+> > some kind of pitch bend support. This sounds very easy but I don't
+> > know yet a program that does it perfectly.
+> >
+> > - The third thing or step is to include a beat matching algorithm.
+> > Very difficult but is the heart of the modern dj programs.
+> >
+> > - The last step is to include the rest of elements: effects, Midi,
+> > OSC, Time Strecthing, ...and the list goes on. BUT ONLY WHEN THE
+> > ABOVE POINTS ARE WORKING PERFECTLY!."
+> >
+> >    I forgot to add to my answer the magic word "...open source please".
+> >
+> >    I'm going to continue with my dream of a powerful open dj program,
+> > it can take to us some years to reach it but to be honest the time
+> > doesn't worry me very much.
+> >
+> >    Luis.
+> >
+> >
+> >
+> >
+> > On 02/01/2007, at 18:48, Dunstan Nesbit wrote:
+> >
+> > > Good Day and Season Greetings Gentlemen,
+> > >
+> > > Year has come and gone and I guess because of our professional and
+> > > personal commitment not much was done in 2006.
+> > > I'm still committed to this effort I would like to see something
+> > > come out of it.
+> > > The question now is now, should we continue with this project or
+> > > let it rest in peace.
+> > >
+> > > Let discuss and hear what everybody thinks.
+> > >
+> > > Dunstan.
+> > >
+> > >
+> > > _______________________________________________
+> > > Digixound-devel mailing list
+> > > Digixound-devel at lists.berlios.de
+> > > https://lists.berlios.de/mailman/listinfo/digixound-devel
+> >
+> > _______________________________________________
+> > Digixound-devel mailing list
+> > Digixound-devel at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/digixound-devel
+> >
+>
+> _______________________________________________
+> Digixound-devel mailing list
+> Digixound-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/digixound-devel
+>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/digixound-devel/attachments/20070112/341c0737/attachment.html>
+
+From j_zar at openjay.org  Wed Jan 17 22:44:51 2007
+From: j_zar at openjay.org (Gianluca Romanin (aka J_Zar))
+Date: Wed, 17 Jan 2007 22:44:51 +0100
+Subject: [Digixound-devel] Digixound, Dead Or Alive?
+In-Reply-To: <2CB9C204-9F56-46C0-8019-FB8230F5B826@kontrol-dj.com>
+References: <694D0CD8-8873-419C-BE54-8756520EBD00@kontrol-dj.com>
+	<254960650701091931h7641a6cfh5f4bbe387d6881c0@mail.gmail.com>
+	<2CB9C204-9F56-46C0-8019-FB8230F5B826@kontrol-dj.com>
+Message-ID: <200701172244.52346.j_zar@openjay.org>
+
+So here I am ...
+
+Alle 17:58, gioved? 11 gennaio 2007, L.S.D ha scritto:
+> Hi,
+>
+>    In the last months I have fixed some bugs of the ustream lib. I'm
+> adding right now a special module to store the properties of all the
+> "blocks" in a xml file so that we will be able to store easily custom
+> settings and configs (...from the point of view of a end user). I
+> think that the ustream lib is now stable. I use it in another program
+> that has been tested by some hundreds of users and there aren't
+> reports yet of crashes of the ustream kernel, so that I can say that
+> I'm happy with it.
+>
+>    I wrote a long time ago a little program with a rapid development
+> tool (c++builder) in a windows platform where I use a customized mad
+> decoder like a sink block, the soundtouch library like a filter block
+> and the rtaudio library like a sink block. The result was a mini
+> program that was able to play mp3 songs within problems and with the
+> feature to change his pitch/tempo rate. In conclusion I can say that
+> the ustream lib works.
+>
+
+
+I'm really glad to know that the ustream base is ok. This is nice.
+
+
+>    About playlist management:
+>
+>    We can compare the songfile/playlist management of dj (...and also
+> not dj related) programs and thus we can find the basic features of
+> the playlist manager. I have been thinking that it would be nice to
+> use some of the open source playlist managers out there to speed up
+> the development process (MadMan, Amarok, Juk, Domo, Prokyon, etc).
+> One of the main problems of using these open source programs is that
+> some of them use a lot of external libraries and this can give us a
+> lot of problems. For example Amarok (...in my honest opinion actually
+> it's the best music manager) uses the KDE libraries and have not been
+> ported yet to windows. So that as Dunstan says we have to decide the
+> framework to work with.
+>
+
+I suppose that that looking at xmms2 plugins and code can help. Prokyon3 has 
+several facilities to use the socket. It can actually connect to Mixxx.
+
+
+>    In the last months I have been thinking in develop/use a minimal
+> linux distro (...it can be a live/embedded distro as damn small linux
+> or puppy linux but more ligthweight) specifically developed for our
+> dj program so that we can have more control over it, this can be a
+> good discussion point. From one side it's very good to do it but in
+> the other side we lose our multi-platform objective. To be honest I'm
+> a little bit confused in the last weeks about what is the best way to
+> get our target program ready. Definitively we need to discuss more....
+>
+
+I suppose this is another card in the deck. We have some problems in this. 
+Well we have no issues with time: this is ok. I am in peace with the idea of 
+a quick and well established software for mixing under Linux... Not possible!
+Altough DigiXound needs an important thing... more than other ideas and 
+subprojects... It needs organization.
+It needs a todo list and a good draft. I know I can help but I don't know what 
+to do: I don't know the ustream code, we have not a repository, I don't know 
+what you are coding and what I can code now... Organization lacks.
+You or Dunstan should write on the wiki a list of tasks, with a cool 
+description and basic rules. If the wiki is not enough I can set a 
+bugtracking php portal (with bug - task flexible system).
+We should use some repository. If svn is shit and cvs too... We can look at 
+git (which is nicer and easier)... Or a simple ftp directory for our local 
+snapshots.
+
+I think that the Linux distrib should be the last thing to do... Before we 
+need to finish the kernel. Please LSD,  make ustream available for us 
+somewhere. Then we can start the real group development.
+
+Ciao,
+J_Zar
+
+
